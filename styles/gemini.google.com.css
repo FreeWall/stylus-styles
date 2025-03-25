@@ -1,0 +1,5 @@
+@-moz-document domain("gemini.google.com") {
+hallucination-disclaimer {
+    display: none;
+}
+}
