@@ -8,4 +8,10 @@ upsell-button {
 .desktop-ogb-buffer {
     display: none;
 }
+.dark-theme .markdown {
+   color: #d0d7df !important;
+}
+.sidenav-with-history-container bot-list {
+    display: none;
+}
 }
