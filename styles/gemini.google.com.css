@@ -20,6 +20,15 @@ immersive-panel {
 body.dark-theme {
     background: #282A2C !important;
 }
+.dark-theme immersive-panel {
+    background: #282A2C !important;
+}
+.dark-theme immersive-panel browse-item .browse-item {
+    background: #262627 !important;
+}
+.dark-theme immersive-panel browse-item .browse-item:hover {
+    background: #303338 !important;
+}
 .dark-theme bard-sidenav {
     background: #1b1c1d;
 }
