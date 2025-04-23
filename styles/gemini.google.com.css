@@ -14,4 +14,37 @@ upsell-button {
 .sidenav-with-history-container bot-list {
     display: none;
 }
+immersive-panel {
+    margin-bottom: 0px !important;
+}
+body.dark-theme {
+    background: #282A2C !important;
+}
+.dark-theme bard-sidenav {
+    background: #1b1c1d;
+}
+.dark-theme chat-window {
+    background: #282A2C !important;
+}
+.dark-theme response-container .response-container {
+    background: #282A2C !important;
+}
+.dark-theme extended-response-panel response-container .response-container {
+    background: transparent !important;
+}
+.dark-theme code-block .code-block-decoration {
+    background: #1b1c1d !important;
+}
+.dark-theme code-block .formatted-code-block-internal-container {
+    background: #1b1c1d !important;
+}
+.dark-theme input-container {
+    background: linear-gradient(180deg,rgba(40, 42, 44 ,0) 50px,#282A2C 50px) !important;
+}
+.dark-theme input-container:before {
+    background: linear-gradient(180deg,rgba(40, 42, 44 ,0),#282A2C 60%)  !important;
+}
+.dark-theme input-area-v2 {
+    background: #282A2C !important;
+}
 }
