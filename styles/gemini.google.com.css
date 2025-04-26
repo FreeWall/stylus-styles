@@ -23,11 +23,17 @@ body.dark-theme {
 .dark-theme immersive-panel {
     background: #282A2C !important;
 }
-.dark-theme immersive-panel browse-item .browse-item {
-    background: #262627 !important;
+.dark-theme immersive-panel browse-web-item .browse-item {
+    background: #333537 !important;
 }
-.dark-theme immersive-panel browse-item .browse-item:hover {
-    background: #303338 !important;
+.dark-theme immersive-panel browse-web-item .browse-item:hover {
+    background: #3D3F42 !important;
+}
+.dark-theme immersive-panel .source-card-container {
+    background: #333537 !important;
+}
+.dark-theme immersive-panel .source-card-container:hover {
+    background: #3D3F42 !important;
 }
 .dark-theme bard-sidenav {
     background: #1b1c1d;
