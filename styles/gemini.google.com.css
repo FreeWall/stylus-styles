@@ -8,61 +8,28 @@ upsell-button {
 .desktop-ogb-buffer {
     display: none;
 }
-.dark-theme .markdown {
-    color: #d0d7df !important;
-}
 .sidenav-with-history-container bot-list {
     display: none;
 }
 immersive-panel {
     margin-bottom: 0px !important;
 }
-body.dark-theme {
-    background: #282A2C !important;
+:root .dark-theme {
+    --gem-sys-color--on-surface: #d0d7df;
+    --gem-sys-color--surface-container: #1b1c1d;
+    --gem-sys-color--surface: #282A2C;
+    --gem-sys-color--surface--rgb: 40, 42, 44;
+    --mat-dialog-container-color: #282A2C;
 }
 .avatar-gutter {
     display: none !important;
 }
-.dark-theme immersive-panel {
-    background: #282A2C !important;
-}
-.dark-theme immersive-panel browse-web-item .browse-item {
-    background: #333537 !important;
-}
-.dark-theme immersive-panel browse-web-item .browse-item:hover {
-    background: #3D3F42 !important;
-}
-.dark-theme immersive-panel .source-card-container {
-    background: #333537 !important;
-}
-.dark-theme immersive-panel .source-card-container:hover {
-    background: #3D3F42 !important;
-}
-.dark-theme bard-sidenav {
-    background: #1b1c1d;
-}
-.dark-theme chat-window {
-    background: #282A2C !important;
-}
-.dark-theme response-container .response-container {
-    background: #282A2C !important;
-}
-.dark-theme extended-response-panel response-container .response-container {
-    background: transparent !important;
-}
-.dark-theme code-block .code-block-decoration {
-    background: #1b1c1d !important;
-}
-.dark-theme code-block .formatted-code-block-internal-container {
-    background: #1b1c1d !important;
-}
-.dark-theme input-container {
-    background: linear-gradient(180deg, rgba(40, 42, 44, 0) 50px, #282A2C 50px) !important;
-}
-.dark-theme input-container:before {
-    background: linear-gradient(180deg, rgba(40, 42, 44, 0), #282A2C 60%) !important;
-}
-.dark-theme input-area-v2 {
-    background: #282A2C !important;
+@media (min-width: 1920px) {
+    bard-sidenav {
+        --bard-sidenav-open-width: 340px !important;
+    }
+    bard-mode-switcher {
+        --bard-sidenav-open-closed-width-diff: 270px !important;
+    }
 }
 }
