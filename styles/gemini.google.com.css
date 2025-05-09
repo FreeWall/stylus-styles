@@ -8,11 +8,17 @@ upsell-button {
 .desktop-ogb-buffer {
     display: none;
 }
-.sidenav-with-history-container bot-list {
+.sidenav-with-history-container .gems-list-container {
+    display: none;
+}
+.sidenav-with-history-container .explore-gems-container {
     display: none;
 }
 immersive-panel {
     margin-bottom: 0px !important;
+}
+.response-container-footer .buttons-container-v2:before {
+    display: none !important;
 }
 :root .dark-theme {
     --gem-sys-color--on-surface: #d0d7df;
