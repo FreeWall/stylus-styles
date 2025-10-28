@@ -2,8 +2,8 @@
 hallucination-disclaimer {
     display: none;
 }
-upsell-button {
-    display: none;
+div.right-section {
+    display: none !important;
 }
 .desktop-ogb-buffer {
     display: none;
