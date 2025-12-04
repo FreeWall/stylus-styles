@@ -21,6 +21,7 @@ immersive-panel {
     display: none !important;
 }
 :root .dark-theme {
+    --bard-color-synthetic--chat-window-surface: #282A2C;
     --gem-sys-color--on-surface: #d0d7df;
     --gem-sys-color--surface-container: #1b1c1d;
     --gem-sys-color--surface: #282A2C;
