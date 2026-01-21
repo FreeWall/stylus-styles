@@ -20,10 +20,23 @@ immersive-panel {
 .response-container-footer .buttons-container-v2:before {
     display: none !important;
 }
+.conversation-container:first-child {
+    padding-top: 40px;
+}
+
+/* settings */
+mat-action-list.desktop-controls {
+    display: none !important;
+}
+/* location */
+location-footer {
+    display: none !important;
+}
 :root .dark-theme {
     --bard-color-synthetic--chat-window-surface: #282A2C;
     --gem-sys-color--on-surface: #d0d7df;
     --gem-sys-color--surface-container: #1b1c1d;
+    --gem-sys-color--surface-container-high: #1b1c1d;
     --gem-sys-color--surface: #282A2C;
     --gem-sys-color--surface--rgb: 40, 42, 44;
     --mat-dialog-container-color: #282A2C;
