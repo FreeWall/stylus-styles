@@ -2,10 +2,22 @@
 .container-xl {
     max-width: 90%;
 }
+.ehzXEi {
+    max-width: 90%;
+}
+.fVfnXK {
+    max-width: 90%;
+}
+[data-width="large"] {
+    max-width: 100%;
+}
 .wiki-rightbar {
     width: auto !important;
 }
 include-fragment.js-diff-entry-loader {
+    background: var(--bgColor-attention-muted);
+}
+div[class^='HiddenDiffPatch-module__gridColumnTemplate'] {
     background: var(--bgColor-attention-muted);
 }
 a.tooltipped[aria-label~="approval"],
@@ -74,5 +86,8 @@ a.IssueLabel[title="request changes"] {
 }
 button.btn-group-merge {
     cursor: not-allowed;
+}
+p.text-small.color-fg-muted.mb-3.mt-3 {
+    display: none;
 }
 }
