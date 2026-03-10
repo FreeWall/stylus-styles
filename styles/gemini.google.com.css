@@ -3,7 +3,14 @@ hallucination-disclaimer {
     display: none;
 }
 div.right-section {
-    display: none !important;
+    /* display: none !important; */
+}
+top-bar-actions {
+    left: auto !important;
+    right: 60px !important;
+}
+.top-bar-actions .center-section {
+    display: none;
 }
 .desktop-ogb-buffer {
     display: none;
