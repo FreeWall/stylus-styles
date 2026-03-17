@@ -9,7 +9,16 @@ top-bar-actions {
     left: auto !important;
     right: 60px !important;
 }
+top-bar-actions .top-bar-actions {
+    display: block !important;
+}
+.top-bar-actions .adv-upsell {
+    display: none;
+}
 .top-bar-actions .center-section {
+    display: none;
+}
+.top-bar-actions .left-section {
     display: none;
 }
 .desktop-ogb-buffer {
