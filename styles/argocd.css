@@ -1,0 +1,39 @@
+@-moz-document url-prefix("https://argocd.suite.sldev.cz/applications") {
+.application-details.trezor-trade-api-prod .top-bar__breadcrumbs:after,
+.application-details.trezor-trade-api-staging .top-bar__breadcrumbs:after,
+.application-details.trezor-trade-api-develop .top-bar__breadcrumbs:after {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0px 20px;
+    margin-left: 20px;
+}
+
+.application-details.trezor-trade-api-prod .top-bar__breadcrumbs:after {
+    content: "PRODUCTION";
+    background: #ed1515;
+}
+
+.application-details.trezor-trade-api-staging .top-bar__breadcrumbs:after {
+    content: "STAGING";
+    background: #eba247;
+}
+
+.application-details.trezor-trade-api-develop .top-bar__breadcrumbs:after {
+    content: "DEVELOP";
+    background: #1593ed;
+}
+
+.qe-applications-list-argocd_trezor-trade-api-prod .applications-list__title, .qe-applications-list-argocd_trezor-trade-api-prod .argo-icon-git {
+    color: #ed1515;
+}
+
+.qe-applications-list-argocd_trezor-trade-api-staging .applications-list__title, .qe-applications-list-argocd_trezor-trade-api-staging .argo-icon-git {
+    color: #eba247;
+}
+
+.qe-applications-list-argocd_trezor-trade-api-develop .applications-list__title, .qe-applications-list-argocd_trezor-trade-api-develop .argo-icon-git {
+    color: #1593ed;
+}
+
+}
