@@ -2,6 +2,7 @@
 .container-xl {
     max-width: 90%;
 }
+/* TODO: find better solution */
 .ehzXEi {
     max-width: 90%;
 }
@@ -19,6 +20,12 @@ include-fragment.js-diff-entry-loader {
 }
 div[class^='HiddenDiffPatch-module__gridColumnTemplate'] {
     background: var(--bgColor-attention-muted);
+}
+div[class^='SharedPageLayout'] {
+    outline: none;
+}
+div[class^='prc-PageLayout-ContentWrapper'] {
+    max-width: none;
 }
 a.tooltipped[aria-label~="approval"],
 a.tooltipped[aria-label~="approvals"] {
