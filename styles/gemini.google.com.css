@@ -5,13 +5,6 @@ hallucination-disclaimer {
 div.right-section {
     /* display: none !important; */
 }
-top-bar-actions {
-    left: auto !important;
-    right: 60px !important;
-}
-top-bar-actions .top-bar-actions {
-    display: block !important;
-}
 .top-bar-actions .adv-upsell {
     display: none;
 }
@@ -36,13 +29,10 @@ immersive-panel {
 .response-container-footer .buttons-container-v2:before {
     display: none !important;
 }
-.conversation-container:first-child {
-    padding-top: 40px;
-}
 
 /* settings */
 mat-action-list.desktop-controls {
-    display: none !important;
+    /* display: none !important; */
 }
 /* location */
 location-footer {
@@ -51,6 +41,11 @@ location-footer {
 :root .dark-theme {
     --bard-color-synthetic--chat-window-surface: #282A2C;
     --gem-sys-color--on-surface: #d0d7df;
+    --lumi-sys-color--on-surface: #d0d7df;
+    --lumi-sys-color--surface-container: #1b1c1d;
+    --lumi-sys-color--surface-container-high: #1b1c1d;
+    --lumi-sys-color--surface: #282A2C;
+    --lumi-sys-color--surface--rgb: 40, 42, 44;
     --gem-sys-color--surface-container: #1b1c1d;
     --gem-sys-color--surface-container-high: #1b1c1d;
     --gem-sys-color--surface: #282A2C;
