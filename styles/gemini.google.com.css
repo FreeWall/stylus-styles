@@ -29,7 +29,10 @@ immersive-panel {
 .response-container-footer .buttons-container-v2:before {
     display: none !important;
 }
-
+.gem-nav-list-item.is-active::before {
+    background-color: var(--mat-list-list-item-focus-state-layer-color, var(--mat-sys-on-surface));
+    opacity: 0.2;
+}
 /* settings */
 mat-action-list.desktop-controls {
     /* display: none !important; */
